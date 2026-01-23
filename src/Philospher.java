@@ -47,7 +47,6 @@ public class Philospher extends Thread {
     private void eat() throws InterruptedException {
         System.out.println("\t\t" + i + " is starting EATING");
         this.state = PhilosopherState.EATING;
-        this.state = PhilosopherState.EATING;
         long duration = (long) (Math.random() * 1000);
         Thread.sleep(duration);
         System.out.println("\t\t" + i + " has finished EATING");
